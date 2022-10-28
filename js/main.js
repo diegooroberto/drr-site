@@ -26,7 +26,7 @@
         updateDisplay();
         	
         // Re-run this next second wrap
-    	setTimeout(timerHandler, (1000 - (new Date().getTime() % 1000)));
+    	setTimeout(timerHandler, (300000 - (new Date().getTime() % 1000)));
     };
 
 	// Fetch the servern time through a HEAD request to current URL
